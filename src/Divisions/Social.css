@@ -1,0 +1,41 @@
+.socialBody{
+    min-height: 120vh;
+    padding: 50px 50px 100px 50px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+.socialHeader{
+    margin: 0;
+    padding: 0;
+    animation: float 2s alternate-reverse infinite linear;
+}
+.socialIconBox{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 25% 20% 30% 25%;
+    text-align: center;
+    justify-items: center;
+    justify-self: center;
+    height: fit-content;
+    width: 60%;
+}
+.socialIcons{
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    /* animation: float 2s alternate-reverse infinite linear; */
+    cursor: pointer;
+    transition: 300ms;
+}
+.socialIcons:hover{
+    transform: scale(1.2,1.2);
+}
+@keyframes float{
+    from{
+        transform: translate(0);
+    }
+    to{
+        transform: translate(10px, 5px);
+    }
+}
