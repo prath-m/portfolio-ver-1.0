@@ -25,7 +25,7 @@
     margin: 10px 50px;
     letter-spacing: 3px;
 }
-.homeLeft > h1{
+.name{
     top: 50%;
     font-size: 70px;
     animation: float 4s alternate-reverse infinite linear;
@@ -33,7 +33,12 @@
 .homeLeft > p{
     top: 62%;
     padding: 0;
-    font-size: 40px;
+    font-size: 30px;
+    color: transparent;
+    background: #4568DC;
+    background: -webkit-linear-gradient(0deg, #B06AB3, #4568DC);
+    background: linear-gradient(0deg, #B06AB3, #4568DC);
+    -webkit-background-clip: text;
 }
 
 @keyframes float{

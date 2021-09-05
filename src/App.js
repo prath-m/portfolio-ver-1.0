@@ -8,7 +8,7 @@ import { Home } from "./Divisions/Home"
 import {About} from "./Divisions/About"
 import {MyWork} from "./Divisions/MyWork"
 import {Social} from "./Divisions/Social"
-// import Parallax from "react-rellax"
+import {NavBar} from "./Divisions/NavBar"
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
           return(
             <>
             <Home />
+            <NavBar />
             <About />
             <MyWork />
             <Social />

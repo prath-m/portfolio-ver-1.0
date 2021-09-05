@@ -19,3 +19,11 @@
     transform: rotate(360deg);
   }
 }
+@keyframes float{
+  from{
+      transform: translate(0);
+  }
+  to{
+      transform: translate(-20px, -10px);
+  }
+}

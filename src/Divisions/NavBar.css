@@ -1,0 +1,58 @@
+.navBox{
+    display : block;
+    position : fixed;
+    top: 0;
+    right : 0;
+    font-size: 25px;
+    text-align: center;
+    cursor : pointer;
+    height: 50vh;
+    width: 20%;
+    clip-path: ellipse(30px 30px at 80% 15%);
+    padding: 2% 0 10px 0;
+    margin: 10px;
+    border-radius: 5%;
+    z-index: 10;
+    transition: 400ms;
+    background: #a05Aa3;
+}
+
+.navBox:hover{
+    transition: 400ms;
+    clip-path: ellipse(100% 100% at 50% 50%);
+    border: 2px solid #B06AB3;
+    background : #202020;
+}
+ul{
+    list-style-type: none;
+    transition: 300ms;
+    padding: 0;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+}
+li:hover{
+    transition: 300ms;
+    /* font-size: 28px; */
+    font-weight: 900;
+    transform: scale(1.2,1.2);
+    color: transparent;
+    background: #4568DC;
+    background: -webkit-linear-gradient(0deg, #B06AB3, #4568DC);
+    background: linear-gradient(0deg, #B06AB3, #4568DC);
+    -webkit-background-clip: text;
+}
+.arrow{
+    position: fixed;
+    right: -15px;
+    top: 25%;
+    font-size: 40px;
+    color: transparent;
+    background: #4568DC;
+    background: -webkit-linear-gradient(0deg, #B06AB3, #4568DC);
+    background: linear-gradient(0deg, #B06AB3, #4568DC);
+    -webkit-background-clip: text;
+    transform: rotate(90deg);
+    user-select: none;
+}
