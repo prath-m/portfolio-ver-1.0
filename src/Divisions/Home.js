@@ -26,3 +26,5 @@ export const Home = () => {
         </>
     )
 }
+// npm install -g serve
+// serve -s build
