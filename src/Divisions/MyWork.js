@@ -1,61 +1,17 @@
 import React from 'react'
 import Parallax from "react-rellax"
 import './MyWork.css'
-import {MediaCard} from './MediaCard'
-
+import { WorkCard } from './WorkCard'
 export const MyWork = () => {
     return (
-        <div className="WorkBody">
+        <div className="workBody">
             <Parallax speed={0.5}><h1> my work?</h1></Parallax>
-
-            <div className="workTab">
-                <Parallax speed={-0.5}><h2>2021</h2></Parallax>
-                <Parallax speed={-0.52}>
-                    <MediaCard 
-                    name="Gandhi" 
-                    url="" 
-                    descreption="loremsdbsdffdfg"
-                    />
-                </Parallax>
-                <Parallax speed={-0.55}>
-                    <MediaCard 
-                    name="Water and AI" 
-                    url="" 
-                    descreption="loremsdbsdffdfg"
-                    />
-                </Parallax>
-                <Parallax speed={-0.5}>
-                    <MediaCard 
-                    name="Gandhi" 
-                    url="" 
-                    descreption="loremsdbsdffdfg"
-                    />
-                </Parallax>       
-            </div>
-
-            <div className="workTab">
-                <Parallax speed={-0.5}><h2>2020</h2></Parallax>
-                <Parallax speed={-0.52}>
-                    <MediaCard 
-                    name="Gandhi" 
-                    url="" 
-                    descreption="loremsdbsdffdfg"
-                    />
-                </Parallax>
-                <Parallax speed={-0.55}>
-                    <MediaCard 
-                    name="Water and AI" 
-                    url="" 
-                    descreption="loremsdbsdffdfg"
-                    />
-                </Parallax>
-                <Parallax speed={-0.5}>
-                    <MediaCard 
-                    name="Gandhi" 
-                    url="" 
-                    descreption="loremsdbsdffdfg"
-                    />
-                </Parallax>                
+            <div className='workTab'>
+                <div className='workLeft'>
+                    <WorkCard title='First' description='lorem hsdfaasdfasasd' link='dfgh'/>
+                    <WorkCard title='Second' description='lorem hsdfaasdfasasd' link='dfgh'/>
+                </div>
+                <Parallax className='workRight' speed={-0.5}></Parallax>
             </div>
         </div>
     )

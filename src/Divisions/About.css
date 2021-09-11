@@ -17,15 +17,26 @@
 .aboutRight{
     padding: 20px 30px;
     font-size: 22px;
+    min-height: 100vh;
+    position: relative;
+    /* background-color: blueviolet; */
+    margin: 10px 20px;
 }
-.aboutRight h1{
+#aboutH1{
     font-size: 62px;
-    margin: 20px;
+    margin: 20px 40px;
     animation: float 2s alternate-reverse infinite linear;
+    position: absolute;
+    top: 10px;
+    left: 0;
 }
-.aboutRight div{
+#aboutP{
     margin: 0;
     padding: 10px;
+    position: absolute;
+    top: 20%;
+    /* background-color: aqua; */
+    left: 0;
 }
 @keyframes float{
     from{

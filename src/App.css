@@ -11,6 +11,13 @@
   color: #61dafb;
 }
 
+a{
+  text-decoration: none;
+  color: inherit;
+}
+p{
+  margin: 0;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
