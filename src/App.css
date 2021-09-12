@@ -6,7 +6,6 @@
   font-family: 'Neuton', serif;
   letter-spacing: 3px;
 }
-
 .App-link {
   color: #61dafb;
 }
@@ -17,6 +16,9 @@ a{
 }
 p{
   margin: 0;
+}
+.moodBody li{
+  margin: 10px 30% 0 0;
 }
 @keyframes App-logo-spin {
   from {
@@ -34,3 +36,4 @@ p{
       transform: translate(-20px, -10px);
   }
 }
+

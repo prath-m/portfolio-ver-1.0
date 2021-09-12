@@ -8,7 +8,7 @@ import discord from './img/discord.png'
 
 export const Social = () => {
     return (
-        <div style={{minHeight:'100vh',position:'relative',overflow:'hidden'}}>
+        <div id='social' style={{minHeight:'100vh',position:'relative',overflow:'hidden'}}>
         <div className="socialBody">
             <Parallax speed={-0.5}>
                 <h1 className="socialHeader" >

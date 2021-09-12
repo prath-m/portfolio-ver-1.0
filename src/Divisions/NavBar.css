@@ -23,7 +23,7 @@
     border: 2px solid #B06AB3;
     background : #202020;
 }
-ul{
+.navBox ul{
     list-style-type: none;
     transition: 300ms;
     padding: 0;
@@ -32,7 +32,7 @@ ul{
     grid-template-columns: 100%;
     justify-content: center;
 }
-li:hover{
+.navBox li:hover{
     transition: 300ms;
     /* font-size: 28px; */
     font-weight: 900;

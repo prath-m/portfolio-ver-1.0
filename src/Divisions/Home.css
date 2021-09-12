@@ -49,3 +49,8 @@
         transform: translate(-20px, -10px);
     }
 }
+@media only screen and  (min-widht: 600px){
+    .home{
+      display: none;
+    }
+  }

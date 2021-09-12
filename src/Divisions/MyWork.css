@@ -1,14 +1,14 @@
 .workBody{
     margin-top: 30vh;
-    padding: 50px 30px;
-    min-height: 100vh; 
+    min-height: 100vh;
     position: relative;
+    overflow: hidden;
 }
 .workBody h1{
     font-size: 80px;
     position: absolute;
     top: 10px;
-    left: 10px;
+    left: 40px;
 }
 .workTab{
     display: grid;
@@ -17,9 +17,7 @@
     position: relative;
     column-gap: 20px;
     margin: 20px 40px;
-}
-.workLeft{
-    /* background-color: aquamarine; */
+    z-index: 2;
 }
 .workRight{
     background: url('img/NormalisBoring.jpg');
@@ -39,6 +37,7 @@
     cursor: pointer;
     transition: 300ms;
     margin: 10px 20px;
+    background-color: rgba(10,10,10,0.3);
 }
 .workCard:hover {
     background-color: #aaa;

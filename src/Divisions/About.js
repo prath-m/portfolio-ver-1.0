@@ -3,9 +3,8 @@ import './About.css'
 import Parallax from "react-rellax"
 
 export const About = () => {
-    
     return (
-        <div style={{minHeight:'100vh', position:'relative'}}>
+        <div id='about' style={{minHeight:'100vh', position:'relative'}}>
             <img style={{
                 display: 'block',
                 position: 'absolute',

@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     animation: float 2s alternate-reverse infinite linear;
+    font-size: 60px;
 }
 .socialIconBox{
     display: grid;
