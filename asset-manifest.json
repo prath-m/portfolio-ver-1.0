@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio-ver-1.0%20/static/css/main.02dd6922.chunk.css",
-    "main.js": "/portfolio-ver-1.0%20/static/js/main.7ef39aaa.chunk.js",
-    "main.js.map": "/portfolio-ver-1.0%20/static/js/main.7ef39aaa.chunk.js.map",
-    "runtime-main.js": "/portfolio-ver-1.0%20/static/js/runtime-main.17a888c6.js",
-    "runtime-main.js.map": "/portfolio-ver-1.0%20/static/js/runtime-main.17a888c6.js.map",
-    "static/js/2.71c735ee.chunk.js": "/portfolio-ver-1.0%20/static/js/2.71c735ee.chunk.js",
-    "static/js/2.71c735ee.chunk.js.map": "/portfolio-ver-1.0%20/static/js/2.71c735ee.chunk.js.map",
-    "static/js/3.5809c62a.chunk.js": "/portfolio-ver-1.0%20/static/js/3.5809c62a.chunk.js",
-    "static/js/3.5809c62a.chunk.js.map": "/portfolio-ver-1.0%20/static/js/3.5809c62a.chunk.js.map",
-    "index.html": "/portfolio-ver-1.0%20/index.html",
-    "static/css/main.02dd6922.chunk.css.map": "/portfolio-ver-1.0%20/static/css/main.02dd6922.chunk.css.map",
-    "static/js/2.71c735ee.chunk.js.LICENSE.txt": "/portfolio-ver-1.0%20/static/js/2.71c735ee.chunk.js.LICENSE.txt",
-    "static/media/MyWork.css": "/portfolio-ver-1.0%20/static/media/NormalisBoring.a106bc58.jpg"
+    "main.css": "/me/static/css/main.7a04b520.chunk.css",
+    "main.js": "/me/static/js/main.7ef39aaa.chunk.js",
+    "main.js.map": "/me/static/js/main.7ef39aaa.chunk.js.map",
+    "runtime-main.js": "/me/static/js/runtime-main.e963ee23.js",
+    "runtime-main.js.map": "/me/static/js/runtime-main.e963ee23.js.map",
+    "static/js/2.71c735ee.chunk.js": "/me/static/js/2.71c735ee.chunk.js",
+    "static/js/2.71c735ee.chunk.js.map": "/me/static/js/2.71c735ee.chunk.js.map",
+    "static/js/3.5809c62a.chunk.js": "/me/static/js/3.5809c62a.chunk.js",
+    "static/js/3.5809c62a.chunk.js.map": "/me/static/js/3.5809c62a.chunk.js.map",
+    "index.html": "/me/index.html",
+    "static/css/main.7a04b520.chunk.css.map": "/me/static/css/main.7a04b520.chunk.css.map",
+    "static/js/2.71c735ee.chunk.js.LICENSE.txt": "/me/static/js/2.71c735ee.chunk.js.LICENSE.txt",
+    "static/media/MyWork.css": "/me/static/media/NormalisBoring.a106bc58.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.17a888c6.js",
+    "static/js/runtime-main.e963ee23.js",
     "static/js/2.71c735ee.chunk.js",
-    "static/css/main.02dd6922.chunk.css",
+    "static/css/main.7a04b520.chunk.css",
     "static/js/main.7ef39aaa.chunk.js"
   ]
 }
